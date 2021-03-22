@@ -8,10 +8,8 @@ You can import sc_eVIP as::
    import sc_eVIP                                                                                            
 
 
-Preprocessing: `pp`
+Scoring: `score`
 -------------------
-
-Scoring
 
 .. module:: sc_eVIP.score
 .. currentmodule:: sc_eVIP
@@ -19,6 +17,11 @@ Scoring
 .. autosummary::
    :toctree: .
 
-   score.test
+   score.compare_2_groups_df
+   score.compare_two_groups
+   score.get_conf_interval
+   score.empirical_pvalues
+   score.qvalue
+
 
 
