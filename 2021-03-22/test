@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>sankeyNetwork</title>
+<script src="test_files/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="test_files/d3-4.5.0/d3.min.js"></script>
+<script src="test_files/sankey-1/sankey.js"></script>
+<script src="test_files/sankeyNetwork-binding-0.4/sankeyNetwork.js"></script>
+</head>
+<body style="background-color: white;">
+<div id="htmlwidget_container">
+
+<div id="htmlwidget-aff0b020ab940e2eb910"
+class="sankeyNetwork html-widget" style="width:960px;height:500px;">
+
+</div>
+
+</div>
+
+<script type="application/json" data-for="htmlwidget-aff0b020ab940e2eb910">{"x":{"links":{"source":[0,0,0,1,1,1,2,2,2],"target":[3,4,5,3,4,5,3,4,5],"value":[1,2,3,1,2,3,0,0,1],"group":["red","red","red","blue","blue","blue","yellow","yellow","yellow"]},"nodes":{"name":["a","b","c","a2","b2","c2"],"group":["red","blue","yellow","red","blue","yellow"]},"options":{"NodeID":"name","NodeGroup":"group","LinkGroup":"group","colourScale":"d3.scaleOrdinal() .domain([\"red\",\"blue\",\"yellow\"]) .range([\"red\", \"blue\", \"yellow\"])","fontSize":7,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":true}},"evals":[],"jsHooks":[]}</script>
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-aff0b020ab940e2eb910">{"viewer":{"width":450,"height":350,"padding":10,"fill":true},"browser":{"width":960,"height":500,"padding":10,"fill":true}}</script>
+</body>
+</html>
